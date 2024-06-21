@@ -20,9 +20,7 @@ const Details = () => {
       })
       router.push({ pathname:'/Dashboard'});
     } catch (error) {
-      console.log('====================================');
       console.log(error);
-      console.log('====================================');
     }
   }
   return (

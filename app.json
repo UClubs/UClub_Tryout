@@ -27,7 +27,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-router", "@react-native-firebase/app", "@react-native-firebase/auth"
+      "expo-router", "@react-native-firebase/app", "@react-native-firebase/auth","expo-font"
     ],
     "extra": {
       "router": {
