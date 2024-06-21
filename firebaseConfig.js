@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBIFdawzxgPRHxhLo94BZUINb5v0YVz154",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_KEY,
   authDomain: "uclub-rn.firebaseapp.com",
   projectId: "uclub-rn",
   storageBucket: "uclub-rn.appspot.com",
