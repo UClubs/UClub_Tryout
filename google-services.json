@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943389557064",
+    "project_id": "uclub-rn",
+    "storage_bucket": "uclub-rn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943389557064:android:5e271c71ae77c83de2337d",
+        "android_client_info": {
+          "package_name": "com.dheenadayalann.UClub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJj9Upu5kjxKDZzt1tnguZIufh_J_7Tv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
