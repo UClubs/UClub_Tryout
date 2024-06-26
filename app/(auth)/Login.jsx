@@ -38,7 +38,6 @@ const Login = () => {
     try {
       const userCredential = await confirm.confirm(code);
       const user = userCredential.user;
-      console.log(user);
       const userDoc = await firestore().collection("users").doc(user.uid).get();
 
       if (userDoc.exists) {

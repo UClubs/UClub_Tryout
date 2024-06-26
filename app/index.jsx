@@ -21,18 +21,20 @@ export default function App() {
     return subscriber; // Unsubscribe on unmount
   }, []);
 
-
   if (initializing)
     return (
-      <View>
-        <Text>Loading...</Text>
-      </View>
+      <SafeAreaView className="h-full bg-primary">
+        <View className="w-full justify-center items-center min-h-[90vh] px-4">
+          <Text className="text-2xl text-white font-semibold mt-10">
+            Loading...
+          </Text>
+        </View>
+      </SafeAreaView>
     );
 
-    if(user) return <Redirect href='/home'/>
+  if (user) return <Redirect href="/home" />;
 
   return (
-   
     <SafeAreaView className="bg-primary h-full">
       <ScrollView contentContainerStyle={{ height: "100%" }}>
         <View className="w-full justify-center items-center min-h-[85vh] px-4">
@@ -62,9 +64,9 @@ export default function App() {
             exporation with Aora
           </Text>
           <CustomButton
-          title="Continue with Phone Number"
-          handelPress={() => router.push("/Login")}
-          containerStyle="w-full mt-7"
+            title="Continue with Phone Number"
+            handelPress={() => router.push("/Login")}
+            containerStyle="w-full mt-7"
           />
         </View>
       </ScrollView>
